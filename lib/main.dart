@@ -1,5 +1,5 @@
-import 'package:bloc_state_management_in_flutter_using/Screens/Home_Screen.dart';
-import 'package:bloc_state_management_in_flutter_using/cubits/Internet_cubit.dart';
+import 'package:bloc_state_management_in_flutter_using/Screens/Sign_in/sign_in_screen.dart';
+import 'package:bloc_state_management_in_flutter_using/Screens/welcome/welcom_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -12,16 +12,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => InternetCubit(),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: HomeScreen(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      home: WelComeScreen(),
     );
   }
 }
