@@ -1,9 +1,12 @@
-import 'package:bloc_state_management_in_flutter_using/Screens/Home_Screen.dart';
-import 'package:bloc_state_management_in_flutter_using/blocs/internet%20bloc/internet_bloc.dart';
+import 'package:bloc_state_management_in_flutter_using/data/repositories/post_repository.dart';
+import 'package:bloc_state_management_in_flutter_using/logic/cubits/post_cubit/post_cubit.dart';
+import 'package:bloc_state_management_in_flutter_using/presentation/Screen/Home_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-void main() {
+void main() async {
+  PostRepository postRepository = PostRepository();
+  postRepository.fetchPosts();
   runApp(const MyApp());
 }
 
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => InternetBloc(),
+      create: (context) => PostCubit(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
