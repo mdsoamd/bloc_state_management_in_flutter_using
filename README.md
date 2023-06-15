@@ -3,7 +3,7 @@
 - [Api Website link](https://jsonplaceholder.typicode.com/)
 
 
-## API Hit Data Show Ui Preview
+## API Hit Then Response Data Show Ui Preview
 
 
 <table>
@@ -18,7 +18,7 @@
 <tr>
 
 <td>
-  <img src="" alt="API Hit Data Show View Example" width="300"/>
+  <img src="https://github.com/mdsomad/bloc_state_management_in_flutter_using/assets/103892160/794fdfb6-31df-4e47-8e2c-156756abe02d" alt="API Hit Data Show View Example" width="300"/>
 </td>
 
 </tr>
