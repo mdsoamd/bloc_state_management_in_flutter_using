@@ -1,6 +1,6 @@
 # bloc_state_management_in_flutter_using
 
-- [Api Website link](https://jsonplaceholder.typicode.com/)
+- [Api Url Website link](https://jsonplaceholder.typicode.com/)
 
 
 ## API Hit Then Response Data Show Ui Preview
@@ -11,6 +11,7 @@
   
 <tr>                    
    <th> API Hit Data Show View</th>
+   <th> internet Error Show View</th>
 </tr>  
   
   
@@ -21,10 +22,13 @@
   <img src="https://github.com/mdsomad/bloc_state_management_in_flutter_using/assets/103892160/794fdfb6-31df-4e47-8e2c-156756abe02d" alt="API Hit Data Show View Example" width="300"/>
 </td>
 
+<td>
+  <img src="https://github.com/mdsomad/bloc_state_management_in_flutter_using/assets/103892160/9810d755-160c-4220-92c2-c44498088a98" alt="internet Error Show View Example" width="300"/>
+</td>
+
 </tr>
 
 </table>
-
 
 
 
